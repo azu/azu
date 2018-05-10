@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/@azu/*"
+  ],
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lerna": "^2.11.0",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1"
+  },
+  "scripts": {
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "publish": "lerna publish --conventional-commits",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "precommit": "lint-staged",
+    "postcommit": "git reset"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

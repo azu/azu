@@ -17,7 +17,10 @@
     "src/",
     "resources/"
   ],
-  "main": "lib/azu.js",
+  "bin": {
+    "azu": "bin/azu.js"
+  },
+  "main": "lib/Azu.js",
   "directories": {
     "lib": "lib",
     "test": "test"
