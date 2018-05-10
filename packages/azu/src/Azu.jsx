@@ -31,7 +31,7 @@ const items = [
     },
     {
         label: "Ask Me Anything",
-        url: "https://github.com/azu/azu/issues"
+        url: "https://github.com/azu/azu/issues/new?template=AMA.md"
     },
     {
         label: "Quit",
