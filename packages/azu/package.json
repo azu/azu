@@ -49,9 +49,13 @@
     "prettier": "^1.12.1"
   },
   "dependencies": {
+    "arr-rotate": "^1.0.0",
+    "figures": "^2.0.0",
     "ink": "^0.5.0",
+    "lodash.isequal": "^4.5.0",
     "meow": "^5.0.0",
     "opn": "^5.3.0",
+    "prop-types": "^15.6.1",
     "term-img": "^2.1.0",
     "terminal-image": "^0.1.1"
   }
