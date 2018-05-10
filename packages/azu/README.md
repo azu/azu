@@ -46,3 +46,7 @@ For bugs and feature requests, [please create an issue](https://github.com/azu/a
 ## License
 
 MIT © azu
+
+## Thanks
+
+This is inspired by <https://github.com/sindresorhus/sindresorhus>
