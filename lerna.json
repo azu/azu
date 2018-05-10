@@ -4,7 +4,7 @@
     "packages/*",
     "packages/@azu/*"
   ],
-  "version": "0.0.0",
+  "version": "1.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
