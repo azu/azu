@@ -50,8 +50,6 @@
   },
   "dependencies": {
     "ink": "^0.5.0",
-    "ink-select": "^1.2.0",
-    "ink-select-input": "^1.1.0",
     "meow": "^5.0.0",
     "opn": "^5.3.0",
     "term-img": "^2.1.0",
