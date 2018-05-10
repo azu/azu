@@ -14,4 +14,6 @@
 
 ## CLI
 
+![CLI screenshot](./packages/azu/screenshot.png)
+
     npx azu
