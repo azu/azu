@@ -54,6 +54,7 @@ const items = createItems([
 module.exports = () => (
     <Box flexDirection="column">
         <Box marginBottom={1}>
+            <Text>Hi! I'm @azu.</Text>
             <Text>I'm a OSS programmer.</Text>
         </Box>
         <SelectInput items={items} onSelect={handleSelect} />
