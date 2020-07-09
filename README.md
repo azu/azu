@@ -1,4 +1,4 @@
-[@azu](https://github.com/azu/)'s interest:
+[@azu](https://github.com/azu/azu/)'s interest:
 
 ![My interest](https://raw.githubusercontent.com/azu/azu/master/docs/resources/GitHubHeader.png)
 
