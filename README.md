@@ -1,6 +1,6 @@
 [@azu](https://github.com/azu/azu/)'s interest:
 
-[![My interest](https://raw.githubusercontent.com/azu/azu/master/docs/resources/GitHubHeader.png)](https://github.com/sponsors/azu)
+[![Writing, Security, TypeScript, and JavaScript](https://raw.githubusercontent.com/azu/azu/master/docs/resources/GitHubHeader.png)](https://github.com/sponsors/azu)
 
 <!-- Source: https://www.figma.com/file/a19Efv000GiqL4O8ng2ygX/Untitled?node-id=0%3A1 -->
 
