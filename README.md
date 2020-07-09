@@ -4,14 +4,12 @@
 
 [Issues · azu/azu](https://github.com/azu/azu/issues "Issues · azu/azu") にTodo等を書いてます。
 
-## AMA
+## AMA(Ask Me Anything)
 
 聞きたいことなどがあればIssueを立ててください。
 
-- [Issues · azu/azu](https://github.com/azu/azu/issues "Issues · azu/azu")
+- [Create AMA Issue](https://github.com/azu/azu/issues/new?template=AMA.md)
 
 ## CLI
-
-![CLI screenshot](./packages/azu/screenshot.png)
 
     npx azu

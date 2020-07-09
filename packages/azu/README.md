@@ -2,19 +2,11 @@
 
 The azu CLI.
 
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    $ npx azu
-
-    # or
-    $ npm i -g azu
-    $ azu
+![CLI screenshot](./screenshot.png)
 
 ## Usage
 
-    $ azu
+    $ npx azu
 
 ## Changelog
 
