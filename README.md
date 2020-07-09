@@ -6,5 +6,5 @@
 
 If you want to support me, [see GitHub Sponsors♥️](https://github.com/sponsors/azu)
 
-If you want to know about me, [create AMA Issue❓](https://github.com/azu/azu/issues/new?template=AMA.md).
+If you want to know about me, [create AMA Issue❓](https://github.com/azu/azu/issues/new?template=AMA.md)
 
