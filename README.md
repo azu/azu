@@ -1,15 +1,7 @@
-# Azu
+[@azu](https://github.com/azu/)'s interest:
 
-自分用のオープンなTodo的なものを管理してるリポジトリです。
+![My interest](./docs/resources/GitHubHeader.png)
 
-[Issues · azu/azu](https://github.com/azu/azu/issues "Issues · azu/azu") にTodo等を書いてます。
+<!-- Source: https://www.figma.com/file/a19Efv000GiqL4O8ng2ygX/Untitled?node-id=0%3A1 -->
 
-## AMA(Ask Me Anything)
-
-聞きたいことなどがあればIssueを立ててください。
-
-- [Create AMA Issue](https://github.com/azu/azu/issues/new?template=AMA.md)
-
-## CLI
-
-    npx azu
+If you want to know about me, [create AMA Issue](https://github.com/azu/azu/issues/new?template=AMA.md).
