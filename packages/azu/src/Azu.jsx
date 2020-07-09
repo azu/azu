@@ -1,59 +1,61 @@
-const { h, render, Component } = require("ink");
-const SelectInput = require("./component/Select");
 const path = require("path");
-const opn = require("opn");
-const open = url => opn(url, { wait: false });
-const handleSelect = item => {
+const React = require("react");
+const { Box, Text } = require("ink");
+const SelectInput = require("ink-select-input").default;
+const open = require("open");
+
+const handleSelect = (item) => {
     if (item.url) {
         open(item.url);
     }
+
     if (item.action) {
         item.action();
     }
 };
 
-const items = [
+const createItems = (items) => {
+    for (const item of items) {
+        item.key = item.url || item.label;
+    }
+
+    return items;
+};
+
+const items = createItems([
     {
         label: "Twitter",
-        url: "https://twitter.com/azu_re"
+        url: "https://twitter.com/azu_re",
     },
     {
         label: "GitHub",
-        url: "https://github.com/azu"
+        url: "https://github.com/azu",
     },
     {
         label: "Blog",
-        url: "https://efcl.info/"
+        url: "https://efcl.info/",
     },
     {
         label: "JSer.info",
-        url: "https://jser.info/"
+        url: "https://jser.info/",
     },
     {
         label: "Ask Me Anything",
-        url: "https://github.com/azu/azu/issues/new?template=AMA.md"
+        url: "https://github.com/azu/azu/issues/new?template=AMA.md",
     },
     {
         label: "Quit",
         action() {
             process.exit();
-        }
-    }
-];
+        },
+    },
+]);
 
-export class Azu extends Component {
-    render() {
-        return (
-            <div>
-                <br />
-                <div>
-                    <span>{`Hello, I am Azu.`}</span>
-                    <br />
-                    <span>{`I'm a client-side programmer.`}</span>
-                </div>
-                <br />
-                <SelectInput items={items} onSelect={handleSelect} />
-            </div>
-        );
-    }
-}
+module.exports = () => (
+    <Box flexDirection="column">
+        <Box marginBottom={1}>
+            <Text>I'm a OSS programmer.</Text>
+        </Box>
+        <SelectInput items={items} onSelect={handleSelect} />
+    </Box>
+);
