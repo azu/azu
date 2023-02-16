@@ -20,6 +20,6 @@ I've written JavaScript books as Open Source in Japanese.
 - [JavaScript Primer #jsprimer](https://github.com/asciidwango/js-primer) (Japanese)
 - [JavaScript Promiseの本](https://github.com/azu/promises-book) (Japanese)
 
-If you want to support me, [please sess GitHub Sponsors♥️](https://github.com/sponsors/azu)
+If you want to support me, [please see GitHub Sponsors♥️](https://github.com/sponsors/azu)
 
 ❓If you want to know about me, [create AMA Issue❓](https://github.com/azu/azu/issues/new?template=AMA.md)
