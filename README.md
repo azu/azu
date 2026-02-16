@@ -1,7 +1,7 @@
 Hi! I'm [@azu](https://github.com/azu).
 
 I've worked on Open Source since 2010.
-I've created [500+ npm pacakges](https://npms.io/search?q=author%3Aazu) and These are [10 million downloads a year](https://npm-stat.com/charts.html?author=azu).
+I've created [500+ npm packages](https://npms.io/search?q=author%3Aazu) and these are [10 million downloads a year](https://npm-stat.com/charts.html?author=azu).
 
 I've created and now maintain many open-source projects:
 
@@ -10,9 +10,9 @@ I've created and now maintain many open-source projects:
 - [HonKit](https://github.com/HonKit/HonKit) build books using Markdown
 - etc...
 
-Also, I the main writer of some blogs about JavaScript and ECMAScript.
+Also, I'm the main writer of some blogs about JavaScript and ECMAScript.
 
-- [JSer.info](https://jser.info/) (Japanese/Korean, 500+ posts, 10 years+, updates per a week)
+- [JSer.info](https://jser.info/) (Japanese/Korean, 500+ posts, 10 years+, updates per week)
 - [ECMAScript Daily](https://ecmascript-daily.github.io/) (300+ posts, 4 years+)
 
 I've written JavaScript books as Open Source in Japanese.
